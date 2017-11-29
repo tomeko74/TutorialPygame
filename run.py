@@ -5,6 +5,7 @@ import pygame, sys
 pygame.init()
 screen = pygame.display.set_mode((1280,720))
 box = pygame.Rect(10, 10, 50, 50)
+clock = pygame.time.Clock()
 
 while True:
     # Handle events
